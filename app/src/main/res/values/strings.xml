@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Home Care</string>
+    <string name="title_activity_lista_profissionais">ListaProfissionaisActivity</string>
+    <string name="title_activity_lista_clientes">Main2Activity</string>
 </resources>

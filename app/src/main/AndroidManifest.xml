@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/homecareimagem"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/homecareimagem"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -16,8 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CadastroClienteActivity" />
-        <activity android:name=".CadastroProfissionalActivity"></activity>
+        <activity
+            android:name=".CadastroClienteActivity"
+            android:label="Cadastro Cliente" />
+        <activity
+            android:name=".CadastroProfissionalActivity"
+            android:label="Cadastro Profissional" />
+        <activity
+            android:name=".Lista.ListaProfissionaisActivity"
+            android:label="Profissionais"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lista.ListaClientesActivity"
+            android:label="Clientes"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
