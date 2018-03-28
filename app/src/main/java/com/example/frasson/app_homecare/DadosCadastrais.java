@@ -30,9 +30,9 @@ public class DadosCadastrais {
 
     public DadosCadastrais(CadastroProfissionalActivity profissional){
 
-        profissionalNome = (EditText) profissional.findViewById(R.id.profissional_nome);
-        profissionalTelefone = (EditText) profissional.findViewById(R.id.profissional_telefone);
-        profissionalEspecialidade = (EditText) profissional.findViewById(R.id.profissional_especialidade);
+        profissionalNome = (EditText) profissional.findViewById(R.id.profissionalNome);
+        profissionalTelefone = (EditText) profissional.findViewById(R.id.profissionalTelefone);
+        profissionalEspecialidade = (EditText) profissional.findViewById(R.id.profissionalEspecialidade);
 
     }
     public Profissional getProfissional() {
